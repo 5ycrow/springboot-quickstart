@@ -39,7 +39,24 @@
     <dependency>
         <groupId>com.baomidou</groupId>
         <artifactId>mybatis-plus-boot-starter</artifactId>
-        <version>3.0.1</version>
+        <version>3.3.2</version>
+    </dependency>
+<!--    MyBatis-Plus 从 3.0.3 之后移除了代码生成器与模板引擎的默认依赖，需要手动添加相关依赖-->
+    <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-generator</artifactId>
+        <version>3.4.1</version>
+    </dependency>
+<!--    添加 模板引擎 依赖，MyBatis-Plus 支持 Velocity（默认）、Freemarker、Beetl，用户可以选择自己熟悉的模板引擎，如果都不满足您的要求，可以采用自定义模板引擎。-->
+    <dependency>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+        <version>2.3.28</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity-engine-core</artifactId>
+        <version>2.3</version>
     </dependency>
 
     <!-- 引入Druid依赖，阿里巴巴所提供的数据源 -->
@@ -72,6 +89,15 @@
         <artifactId>springfox-swagger-ui</artifactId>
         <version>2.9.2</version>
     </dependency>
+<!--日志管理-->
+<!--    <dependency>-->
+<!--        <groupId>ch.qos.logback</groupId>-->
+<!--        <artifactId>logback-classic</artifactId>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--        <groupId>org.slf4j</groupId>-->
+<!--        <artifactId>jcl-over-slf4j</artifactId>-->
+<!--    </dependency>-->
 
 </dependencies>
 

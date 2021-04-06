@@ -1,6 +1,6 @@
 package com.springboot.mybatisplus.mapper;
 
-import com.springboot.mybatisplus.entity.Environment;
+import com.springboot.mybatisplus.entity.Experiment;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author Los
  * @since 2021-04-06
  */
-public interface EnvironmentMapper extends BaseMapper<Environment> {
+public interface ExperimentMapper extends BaseMapper<Experiment> {
 
 }
